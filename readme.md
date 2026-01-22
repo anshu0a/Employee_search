@@ -29,9 +29,9 @@ Update the database credentials in `EmpTable.java`:
 public static final String DB_URL  = "jdbc:mysql://localhost:3306/advjava";
 public static final String DB_USER = "ANSHU";
 public static final String DB_PASS = "anshu";
-
+```
 ## 🧱 Database Setup
-
+```
 CREATE DATABASE advjava;
 USE advjava;
 CREATE TABLE EMP (
@@ -42,9 +42,9 @@ CREATE TABLE EMP (
     SAL DOUBLE(8,2) CHECK (SAL > 0),
     LOC VARCHAR(20)
 );
-
+```
 ## 📥 Insert Sample Data (50 Records)
-
+```
 INSERT INTO EMP (NAME, GENDER, DEPT, SAL, LOC) VALUES
 ('anshu','M','developer',98944.43,'hyd'),
 ('ankush','M','tester',8634.43,'bpl'),
@@ -95,7 +95,7 @@ INSERT INTO EMP (NAME, GENDER, DEPT, SAL, LOC) VALUES
 ('radha','F','tester',10000.00,'kolkata'),
 ('sanjay','M','support',9200.00,'bpl'),
 ('meenakshi','F','hr',16500.00,'jaipur');
-
+```
 Enter id:
 Enter name: neha
 Enter gender(M\F\O):
