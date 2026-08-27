@@ -27,8 +27,8 @@ Update the database credentials in `EmpTable.java`:
 
 ```java
 public static final String DB_URL  = "jdbc:mysql://localhost:3306/advjava";
-public static final String DB_USER = "ANSHU";
-public static final String DB_PASS = "anshu";
+public static final String DB_USER = "*****";
+public static final String DB_PASS = "*****";
 ```
 ## 🧱 Database Setup
 ```
